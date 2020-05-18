@@ -17,6 +17,27 @@ body {
 
 .legal-container p {
     margin-bottom:30px;
+    font-size:16px;
+    line-height:22px;
+}
+
+.legal-container h1 {
+    margin-bottom:20px;
+}
+
+.legal {
+    text-align: center;
+    font-size:12px;
+    margin-bottom:70px;
+    color:#8492A6;
+}
+
+.legal .dot {
+    margin:0 10px;
+}
+
+.legal a {
+    color: #848484;
 }
 
 .navigation {
