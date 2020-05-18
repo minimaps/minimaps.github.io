@@ -9,6 +9,16 @@ body {
     margin:auto;
 }
 
+.legal-container {
+    max-width:860px;
+    padding:100px 40px;
+    margin:auto;
+}
+
+.legal-container p {
+    margin-bottom:30px;
+}
+
 .navigation {
     width:100%;
 }
