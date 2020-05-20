@@ -149,6 +149,36 @@ h1 {
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
 }
+.tertiary {
+    padding:21px;
+    border:1px solid #7E5BEF;
+    font-size:10px;
+    letter-spacing:1.5px;
+    color:#7E5BEF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    margin-left:10px;
+}
+
+.tertiary:hover {
+    background-color:#fff;
+}
+
+@media only screen and (max-width: 500px) {
+    .primary {
+        display:block;
+        text-align:center;
+    }
+    .tertiary {
+        display: block;
+        margin-top:15px;
+        margin-left:0px;
+        text-align:center;
+    }
+  }
 
 .secondary {
     padding:14px 22px;
