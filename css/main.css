@@ -19,6 +19,11 @@ body {
 .logo {
     float:left;
     margin-top:4px;
+    max-width:150px;
+}
+
+.logo img {
+    width:100%;
 }
 
 .navigation .primary {
