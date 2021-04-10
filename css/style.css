@@ -89,7 +89,7 @@ li.dropdown {
     position: absolute;
     background-color:var(--mini-purple);
     min-width: 160px;
-    z-index: 1;
+    z-index: 99;
     -webkit-border-radius: 5px;
     -webkit-border-top-left-radius: 0;
     -moz-border-radius: 5px;
@@ -124,6 +124,7 @@ li.dropdown {
 
 .nav {
     position:fixed;
+    z-index: 999;
     top:0;
     left:0;
     width:100%;
@@ -191,4 +192,64 @@ li.dropdown {
 
 .buttons a:hover {
     color: var(--mini-purple);
+}
+
+/* Hero */
+
+.main-hero {
+    background-color:var(--mini-lightGray);
+    padding-top:140px;
+    padding-bottom:100px;
+}
+
+.h1s {
+    text-align: center;
+}
+
+.h1s h1 {
+    font-size:50px;
+    font-weight:800;
+    -webkit-text-stroke: 2px var(--mini-darkGray);
+    text-stroke: 2px var(--mini-darkGray);
+    margin:0;
+    padding:0;
+
+}
+.top-h1 h1 {
+    color:white !important;
+}
+.bottom-h1 h1 {
+    color:var(--mini-purple);
+}
+
+.bottom-h1 {
+    position:relative;
+}
+
+.top-h1 {
+    position:absolute;
+    width:100%;
+    z-index:30;
+    top:-5px;
+    left:-5px;
+}
+
+.main-hero p {
+    font-size: 20px;
+    display: block;
+    margin:auto;
+    max-width: 580px;
+    line-height: 30px;
+    margin-top:30px;
+}
+
+.product {
+    text-align: center;
+    padding:50px 0;
+
+}
+
+.product img {
+    width: 80%;
+    margin-left:-70px;
 }
