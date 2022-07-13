@@ -7,10 +7,12 @@ body {
     display:block;
     width:100%;
     box-sizing: border-box;
+    position:fixed;
     z-index:9999;
     top:0;
     left:0;
     height:78px;
+    padding:20px 0 20px 0;
     background-color:#fff;
 }
 
@@ -344,12 +346,4 @@ color:#fff;
 border-radius:100px;
 -webkit-border-radius: 100px;
 -moz-border-radius: 100px;
-}
-
-.nav-banner {
-    padding:12px;
-    background-color:#7450E9;
-    text-align: center;
-    color:#fff;
-    margin-bottom:12px;
 }
